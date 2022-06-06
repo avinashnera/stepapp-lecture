@@ -1,0 +1,18 @@
+.tab-button {
+    background: #CECECE;
+    border: 3px solid #CECECE !important;
+    position: relative;
+    height: 100%;
+}
+
+.tab-button.tab-active {
+    border: 3px solid #FC8643 !important;
+    background: #fff !important;
+}
+
+.tab-button svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

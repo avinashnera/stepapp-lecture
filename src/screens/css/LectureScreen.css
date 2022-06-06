@@ -1,27 +1,11 @@
-.tab-button {
-    background: #CECECE;
+.tab-flex-item-1 {
+    display: table-cell;
+    width: 5em;
+    height: 100%;
 }
 
-.tab-button.tab-active {
-    border: 3px solid #FC8643 !important;
-    background: #fff !important;
-}
-
-.feedback-title {
-    font-weight: 700;
-    font-size: 0.7rem;
-    color: #727272;
-    position: absolute;
-    background: #fff;
-    padding: 5px;
-    top: 7px;
-}
-
-.feedback-card .feedback-type {
-    font-size: 0.8rem;
-}
-
-.feedback-card .feedback-area {
-    font-size: 0.8rem;
-    color: #E7E6E5;
+.tab-flex-item-2 {
+    display: table-cell;
+    width: 100%;
+    height: 4.5em;
 }
