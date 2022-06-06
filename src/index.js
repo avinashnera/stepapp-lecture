@@ -7,14 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import { LectureScreen } from './screens';
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-// import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { faUser, faEnvelope, faStar } from "@fortawesome/free-solid-svg-icons";
-// fontawesome.config = {
-//   familyPrefix: "far"
-// };
 library.add(faUser, faEnvelope, faStar);
-
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

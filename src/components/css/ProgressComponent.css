@@ -1,0 +1,10 @@
+.completed {
+    background-color: #FC8643 !important;
+}
+
+.bar {
+    width: 100%;
+    height: 0.4rem;
+    border-radius: 0.2rem;
+    background-color: #CFCFCF;
+}
