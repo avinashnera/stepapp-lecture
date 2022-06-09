@@ -4,9 +4,9 @@ import './css/FeedbackComponent.css';
 function FeedbackComponent(props) {
     const { children, sectionTitle } = props;
     return (
-        <div className="card p-2 feedback-card" style={{ height: '100%' }}>
-            <div className="card-body p-0 pt-3">
-                <div className="border rounded p-2 d-flex flex-column" style={{ height: '100%' }}>
+        <div className="card custom-card padding-2 feedback-card" style={{ height: '100%' }}>
+            <div className="card-body p-0 padding-top-2">
+                <div className="border rounded padding-2 d-flex flex-column" style={{ height: '100%' }}>
                     <h6 className="feedback-title">{sectionTitle}</h6>
                     {/* <RatingTypeComponent title="Content Quality" star={4} />
                     <RatingTypeComponent title="Audio/Video Quality" star={3} /> */}

@@ -5,7 +5,8 @@
     position: absolute;
     background: #fff;
     padding: 5px;
-    top: 10px;
+    top: 5.5%;
+    margin-left: 2%;
 }
 
 .feedback-card .feedback-type {

@@ -19,7 +19,7 @@ function ProgressComponent(props) {
     return (
         <div className="row justify-content-center">
             <div className="col-md-6">
-                <div className="d-flex justify-content-center p-2">
+                <div className="d-flex justify-content-center padding-2">
                     {
                         progress.map((item, index) => {
                             // console.log("aksnfk", (item == 'true'));

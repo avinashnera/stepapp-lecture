@@ -9,7 +9,7 @@ function TabButtonComponent(props) {
         return (
             //<div className="mb-2 tab-flex-item-1">
             <div className="tab-button align-items-center justify-content-md-center border rounded tab-active" onClick={onClick}>
-                <FontAwesomeIcon icon={icon} size="2x" color="#FC8643" />
+                <FontAwesomeIcon icon={icon} color="#FC8643" style={{ width: '44%', height: '44%' }} />
             </div >
             //</div>
         )
@@ -17,7 +17,7 @@ function TabButtonComponent(props) {
         return (
             // <div className="mb-2 tab-flex-item-1">
             <div className="tab-button align-items-center justify-content-md-center border rounded" onClick={onClick}>
-                <FontAwesomeIcon icon={icon} size="2x" color="#fff" />
+                <FontAwesomeIcon icon={icon} color="#fff" style={{ width: '44%', height: '44%' }} />
             </div>
             //</div>
         )

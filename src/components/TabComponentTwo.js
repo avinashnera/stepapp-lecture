@@ -24,7 +24,7 @@ function TabComponentTwo() {
                     <TabButtonComponent status="inactive" icon="user" />
                 </div>
             </div>
-            <div className="border rounded p-2" style={{ 'height': '100%' }}>
+            <div className="border rounded padding-2" style={{ 'height': '100%' }}>
                 <h4>Notes</h4>
             </div>
         </div>

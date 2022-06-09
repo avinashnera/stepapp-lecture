@@ -1,12 +1,13 @@
 import { TabButtonComponent } from './';
 import { useState, useEffect } from 'react';
+import './css/TabComponent.css';
 
 function TabComponent(props) {
     const { title, tabPlacement, contents, initialActiveTab } = props;
 
-    const [alignment, setAlignment] = useState('d-flex flex-column');
-    const [contentAlign, setContentAlign] = useState('d-flex justify-content-lg-between mb-2');
-    const [tabSize, setTabSize] = useState('mr-2 tab-flex-item-2');
+    const [alignment, setAlignment] = useState('d-flex flex-column top-right-tab-flex');
+    const [contentAlign, setContentAlign] = useState('d-flex justify-content-lg-between margin-bottom-2 top-right-tab-top-buttons-col');
+    const [tabSize, setTabSize] = useState('tab-flex-item-2 bg-grey');
     const [contentStyle, setContentStyle] = useState({ 'height': '100%' });
     const [content, setContent] = useState('');
     const [activeTab, setActiveTab] = useState(0);
@@ -19,9 +20,9 @@ function TabComponent(props) {
 
     function renderStyle() {
         if (tabPlacement == "left") {
-            setAlignment('d-flex');
-            setContentAlign('d-flex flex-column justify-content-lg-between mr-2');
-            setTabSize('mb-2 tab-flex-item-1');
+            setAlignment('d-flex bottom-left-tab-flex');
+            setContentAlign('d-flex flex-column justify-content-md-between margin-right-2 bottom-left-tab-left-buttons-col');
+            setTabSize('tab-flex-item-1 bg-grey');
             setContentStyle({ 'width': '100%' });
         }
     }
@@ -38,6 +39,7 @@ function TabComponent(props) {
     }, [tabPlacement]);
 
     return (
+
         <div className={alignment}>
             {renderTitle()}
             <div className={contentAlign}>
@@ -57,7 +59,7 @@ function TabComponent(props) {
                     }
                 })}
             </div>
-            <div className="border rounded p-2" style={contentStyle}>
+            <div className="border rounded padding-2" style={contentStyle}>
                 <h4>{content}</h4>
 
             </div>
