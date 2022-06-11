@@ -1,19 +1,23 @@
 .feedback-title {
-    font-weight: 700;
-    font-size: 0.7rem;
+    font-weight: 600;
+    font-size: 70%;
     color: #727272;
     position: absolute;
     background: #fff;
-    padding: 5px;
-    top: 5.5%;
+    padding: 2% 1% 0 1%;
+    top: 0;
+    margin: 0;
     margin-left: 2%;
 }
 
 .feedback-card .feedback-type {
-    font-size: 0.8rem;
+    font-size: 70%;margin: 0;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
 }
 
 .feedback-card .feedback-area {
-    font-size: 0.8rem;
+    font-size: 80%;
     /* color: #E7E6E5; */
 }

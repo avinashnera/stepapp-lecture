@@ -4,7 +4,9 @@
 
 .bar {
     width: 100%;
-    height: 0.4rem;
-    border-radius: 0.2rem;
+    height: 13.48%;
+    border-radius: 1000px;
     background-color: #CFCFCF;
+    margin: auto 1% auto 1%;
+    /* margin-top: auto;margin-bottom: auto; */
 }

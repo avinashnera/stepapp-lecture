@@ -17,13 +17,13 @@ function ProgressComponent(props) {
     var progress = createProgress(total, completed);
 
     return (
-        <div className="row justify-content-center">
+        <div className="main-row justify-content-center">
             <div className="col-md-6">
-                <div className="d-flex justify-content-center padding-2">
+                <div className="d-flex full-height">
                     {
                         progress.map((item, index) => {
                             // console.log("aksnfk", (item == 'true'));
-                            return <div key={index} className={`m-1 bar ${(item == 'true') ? 'completed' : ''}`} />
+                            return <div key={index} className={`bar ${(item == 'true') ? 'completed' : ''}`} />
                         })
                     }
                 </div>

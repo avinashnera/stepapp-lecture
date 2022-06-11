@@ -18,9 +18,9 @@ function RatingTypeComponent(props) {
     const { title, star } = props;
     var rating = createRating(star);
     return (
-        <div className="row">
-            <div className="col-md-5"><p className="feedback-type mb-1">{title}</p></div>
-            <div className="col-md-7">
+        <div className="rating-type-row">
+            <div className="col-md-5"><p className="feedback-type">{title}</p></div>
+            <div className="col-md-7" style={{ height: 'auto' }}>
                 {
                     rating.map((i, index) => {
                         // console.log(i);

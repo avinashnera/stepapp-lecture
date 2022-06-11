@@ -1,5 +1,6 @@
 {
   "name": "stepapp-lecture",
+  "homepage": "https://www.dev.dotminds.in/step-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

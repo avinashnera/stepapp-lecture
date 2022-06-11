@@ -23,6 +23,9 @@ function LectureScreen() {
                         <div className="custom-card top-left-section bg-white">
                             <VideoPlayerComponent url="https://www.youtube.com/watch?v=TUxAZGt1pKw" />
                         </div>
+                        <div class="center-left-section">
+                            <ProgressComponent total={5} completed={3} />
+                        </div>
 
                         <div className="custom-card padding-2 bottom-left-section bg-white">
                             <TabComponent initialActiveTab={1} tabPlacement="left" contents={[

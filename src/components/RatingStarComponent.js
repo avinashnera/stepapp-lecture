@@ -5,10 +5,10 @@ function RatingStarComponent(props) {
     // console.log("marked: ", marked);
 
     if (marked == "true") {
-        return <FontAwesomeIcon icon='star' color="#FFCF25" />
+        return <FontAwesomeIcon icon='star' size="sm" color="#FFCF25" />
     } else {
         // console.log("in false");
-        return <FontAwesomeIcon icon='star' color="#BBBBBB" />
+        return <FontAwesomeIcon icon='star' size="sm" color="#BBBBBB" />
     }
 
 }
